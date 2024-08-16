@@ -1,3 +1,10 @@
+# vi tri phan tu trong string
+# -1,-2,.. co the dai dien cho vi tri cuoi cua string
+s = "12345"
+s[0]=1
+s[-1]=5
+s[-2]=4
+
 # do dai chuoi
 s="concubu"
 len(s)
