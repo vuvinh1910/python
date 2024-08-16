@@ -16,3 +16,10 @@ lst = ['A', 'B', 'C']
 # Xóa phần tử thứ 2 khỏi list
 lst.pop(1)
 print(lst) # ['A', 'C']
+
+# xoa tat ca phan tu trong list voi clear()
+list.clear()
+
+# ham dem so lan phan tu trong list xuat hien
+list=[1,1,1,2]
+print(list.count(1)) # => 3
