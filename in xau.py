@@ -6,4 +6,5 @@ print("hello")
 print("4")
 
 vidu in xâu + số:
-print(str(4-1) + "là bằng" + str(1+2))
+c1 : print("1+2 là bằng ",1+2)
+c2 : print("1+2 là bằng " + str(1+2))
