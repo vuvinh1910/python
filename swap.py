@@ -1,3 +1,5 @@
+
+# luu y quan trong cach nay chi su dung cho bien gia tri so int,float,long
 # trong bien
 a = 5
 b = 10
