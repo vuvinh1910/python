@@ -21,15 +21,12 @@ else:
     print("n is an odd number")
 
 
-# if else lồng nhau
-a, b = 10, 20
-if a != b:
-	if a > b:
-		print("a is greater than b")
-	else:
-		print("b is greater than a")
-else:
-	print("Both a and b are equal")
+# if else nhieu dieu kien
+a,b = 4,5
+if a%2==0 and b>a:
+    print(1)
+else :
+    print(0)
 
 
 # ham con ket hop tra ve 
