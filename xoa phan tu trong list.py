@@ -11,7 +11,7 @@ list.remove(i) loai 1 phan tu i duoc tim thay dau tien trong ds list
 while target in list:
   list.remove(target)
 
-# pop() trong list
+# pop( position ) trong list
 lst = ['A', 'B', 'C']
 # Xóa phần tử thứ 2 khỏi list
 lst.pop(1)
