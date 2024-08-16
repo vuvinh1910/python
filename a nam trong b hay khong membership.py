@@ -4,3 +4,4 @@
 print("Code" in "Codelearn") # return true
 print("Py" in "Python") # return true
 print("x" in "python") # return false
+print("v" not in "vinh") # return false
