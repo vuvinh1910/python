@@ -1,7 +1,7 @@
 def ten_ham(tham_so):
     # Các câu lệnh trong hàm
     print(tham_so)
-ten_ham("haha") # gọi hàm ten_ham với haha truyền vào tham_so và thực hiện print trong hàm định 
+ten_ham("haha") # gọi hàm ten_ham với haha truyền vào tham_so và thực hiện print trong hàm định nghia
 
 vidu:
 def greet(name):
