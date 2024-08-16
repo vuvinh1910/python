@@ -1,3 +1,5 @@
+# danh sách trống
+list0 = []
 # Tạo ra list để lưu trữ các số nguyên
 list1 = [1, 2, 3]
 # Tạo ra list để lưu trữ các xâu ký tự
