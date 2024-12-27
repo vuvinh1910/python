@@ -1,19 +1,7 @@
-from itertools import permutations
+import itertools
 
-# Nhập chuỗi từ người dùng
-s = input().strip()
-
-# Tạo tất cả các hoán vị
-perm_list = permutations(s)
-
-# In từng hoán vị
-for perm in perm_list:
-    print(''.join(perm)) # perm la mot set trong perm_list
-
-# Kiểm tra và in hoán vị thứ 3 nếu có
-if len(perm_list) >= 3:
-    third_permutation = ''.join(perm_list[2])
-    print(third_permutation)
-else:
-    print("Không đủ hoán vị")
-
+s=[9,3,4,6,7]
+s.sort()
+per = itertools.permutations(s)
+for i in per:
+    print(" ".join(map(str,i)))
