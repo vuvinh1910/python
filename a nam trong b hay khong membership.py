@@ -1,3 +1,4 @@
+# co the dung cho list va tring
 # in và not in là hai toán tử membership với cách sử dụng rất đơn giản.
 # Ví dụ bạn có thể kiểm tra xem một xâu có nằm trong một xâu khác không
 
