@@ -1,25 +1,9 @@
-# remove trong list
-so=[1,1,2,3]
-so.remove(1) # => 1 2 3
+# dung remove(object)
+list.remove("vc")
 
-chu["con","con","cu"]
-chu.remove("con") # => con cu
+# dung pop(position)
+list.pop(1) # xoa phan tu tai vi tri 1 trong list
 
-list.remove(i) loai 1 phan tu i duoc tim thay dau tien trong ds list
-
-# loai tat ca phan tu target trong ds list
-while target in list:
-  list.remove(target)
-
-# pop( position ) trong list
-lst = ['A', 'B', 'C']
-# Xóa phần tử thứ 2 khỏi list
-lst.pop(1)
-print(lst) # ['A', 'C']
-
-# xoa tat ca phan tu trong list voi clear()
-list.clear()
-
-# ham dem so lan phan tu trong list xuat hien
-list=[1,1,1,2]
-print(list.count(1)) # => 3
+# dung del
+a = [1,2,3,4,5]
+del a[2]  # xoa vi tri 2 trong a
