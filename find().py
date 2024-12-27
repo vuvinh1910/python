@@ -1,3 +1,5 @@
+# find.(str,start position, end position)
+
 s = "hello hello hello"
 # khong ap dung cho list, neu co list hay dung index
 # Tìm kiếm "hello" bắt đầu từ vị trí 5
