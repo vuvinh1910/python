@@ -13,3 +13,9 @@ greet(42)       # Truyền vào một số nguyên nhưng sẽ sai cần phải 
 def greet(name):
     print(1+name)
 greet(42)       # Truyền vào một số nguyên, kq: 43
+
+def default_value(a,b = 'test')
+    print(a)
+    return
+default_value(1) // ko gan b thi mac dinh b = test
+default_value(1,'hehe') // b = hehe
