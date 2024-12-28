@@ -11,9 +11,9 @@ my_dict = {
 # Tạo bằng hàm cóntruction dict():
 key = ['a','b','c']
 value = [1,2,3]
-# dùng dict + zip để nối 2 list thành map
+# dùng dict + zip để nối 2 list,set thành map
 my_dict_1 = dict(zip(key,value))
-# dùng fromkeys để gán value mặc định cho 1 list tạo thành map
+# dùng fromkeys để gán value mặc định cho 1 list,set tạo thành map
 print(my_dict_1)    # {'a': 1, 'b': 2, 'c': 3}
 default_value = 0
 my_dict_2 = dict.fromkeys(key,default_value)
