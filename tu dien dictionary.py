@@ -1,5 +1,6 @@
 # tuong tu nhu map, nhung trong python no co ten la dictionary
 # gom cac cap key - value
+# key la cac doi tuong khong the thay doi vi vay list khong the lam 1 key ma phai la tuple
 
 # Tạo dictionary
 my_dict = {
