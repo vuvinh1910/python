@@ -7,6 +7,6 @@ list = "-".join(list) # => "1-2-3"
 # neu ko nhap so lan thay the thi mac dinh no se thay the tat ca chuoi con
 # string.replace(old, new, count)
 
-vd:
+# vd:
 list = "concu"
 list = list.replace("c","v") # => vonvu

@@ -3,6 +3,6 @@ print("Xin chào", name)
 
 #nhap so nguyen
 # input() luon tra ve str nen khi nhap so nguyen can dung lenh int(input())
-vd: 
+# vd: 
 age = int(input())
 print(2+age)

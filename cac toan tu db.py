@@ -1,8 +1,9 @@
-#chia lay phan nguyen
+# chia lay phan nguyen
 67 // 7
 
 # ham mu a^b
-a ** b
+a = b = 4
+a = a ** b
 
 # ham and &
 a = 6  # 6 trong hệ nhị phân là 110
