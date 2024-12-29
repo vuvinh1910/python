@@ -1,19 +1,13 @@
-def decimal_to_base(he_10, b):
-    digits = "0123456789ABCDEF"
-    if he_10 == 0:
-        return "0"
-    
-    result = []
-    while he_10 > 0:
-        chia_du = he_10 % b
-        he_10 = he_10 / b
-        he_10 = int(he_10)
-        result.append(digits[chia_du])
-    
-    return ''.join(reversed(result))
-
-# Ví dụ sử dụng
-he_10 = 255
-b = 8
-base_str = decimal_to_base(he_10, b)
-print(base_str)  # Output: '377'
+temp = '0123456789ABCDEFGHIJKLMNOPQRSTUVWXYZ'
+def convert(he10,heb):
+    str = ''
+    while(he10!=0):
+        a = he10%heb
+        he10 //= heb
+        str += temp[a]
+    str = str[::-1]
+    return str
+t = int(input())
+for _ in range(t):
+    he10,heb = map(int,input().split())
+    print(convert(he10,heb))
