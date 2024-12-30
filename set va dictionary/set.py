@@ -3,9 +3,9 @@
 # chi co them hoac xoa, khong the sua
 # set luu duoc tuple nhung khong luu duoc list vi list co the thay doi duoc
 
-set = {1,2,3,4,5}
-set.add(6)
-set.remove(1) # xoa so 1 trong set
+sett = {1,2,3,4,5}
+sett.add(6)
+sett.remove(1) # xoa so 1 trong set
 
 # dung lenh in de tim kiem ptu trong set: (vi set giup tim kiem cuc nhanh)
 i = 4

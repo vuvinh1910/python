@@ -1,6 +1,7 @@
 import collections
 a = [1,1,2,2,2,3,3,3]
 cnt = collections.Counter(a)
+# tra ve counter chua key-value gom so va so lan xuat hien
 # co the unpack cnt sang dict hoac list hoac set
 print(cnt.keys(),cnt.values(),cnt.items())
 
