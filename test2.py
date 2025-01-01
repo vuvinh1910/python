@@ -1,24 +1,27 @@
-import sys
+import datetime
+import functools
+import collections
+# import intertools
 import re
+import math
 
-# Đọc toàn bộ đầu vào từ sys.stdin
-doc = sys.stdin.read()
 
-# Tách văn bản thành các câu, giữ lại dấu câu bằng cách sử dụng nhóm phụ trong biểu thức chính quy.
-sentences = re.split('([.?!])', doc)
-
-# Kết hợp lại dấu câu vào câu sau khi tách
-sentences = [sentences[i] + sentences[i+1] if i+1 < len(sentences) else sentences[i] for i in range(0, len(sentences), 2)]
-
-# Xử lý mỗi câu một cách riêng biệt.
-for sen in sentences:
-    if len(sen) == 0: continue  # Bỏ qua các chuỗi rỗng sau khi tách.
-    
-    # Chuyển đổi tất cả từ trong câu thành chữ thường và chia câu thành các từ.
-    sen = sen.lower().split()
-    
-    # Viết hoa chữ cái đầu tiên của câu.
-    sen[0] = sen[0][:1].upper() + sen[0][1:]
-    
-    # In câu đã chỉnh sửa, nối các từ lại với nhau thành một câu hoàn chỉnh.
-    print(' '.join(sen))
+t = int(input())
+for _ in range(t):
+    n,m = map(int,input().strip().split())
+    mt = []
+    for i in range(n):
+        mt.append(list(map(int,input().strip().split())))
+    mt_T = [[0 for i in range(n)] for j in range(m)]
+    mt_temp = [[0 for i in range(n)] for j in range(n)]
+    for i in range(n):
+        for j in range(m):
+            mt_T[j][i] = mt[i][j]
+    for i in range(n):
+        for j in range(n):
+            for k in range(m):
+                mt_temp[i][j] += (mt[i][k] * mt_T[k][j])
+    for i in mt_temp:
+        for j in i:
+            print(j , end=' ')
+        print()

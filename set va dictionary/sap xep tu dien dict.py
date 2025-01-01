@@ -18,7 +18,7 @@ for i in range(t):
     my_dick[name] = tup
 
                 # .items() de lay ca key-value de truyen vao a,b trong ham sx()
-my_dick = sorted(my_dick.items(),key=functools.cmp_to_key(sx))
+my_dick = sorted(my_dick.items(),key=lambda x : (-x[1][0],x[1][1],x[0]))
 
 # sau khi dung sorted thi my_dick chuyen thanh list nen ta duyet ko can .items()
 for k,v in my_dick:

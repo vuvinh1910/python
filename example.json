@@ -1,0 +1,42 @@
+{
+    "Company": "Tech Solutions",
+    "Location": "San Francisco",
+    "Employees": [
+        {
+            "EmployeeID": 101,
+            "Name": "John Doe",
+            "Department": "Sales",
+            "Salary": 50000,
+            "Skills": ["Communication", "Negotiation", "CRM"],
+            "Projects": [
+                {
+                    "ProjectID": "P001",
+                    "ProjectName": "Sales Dashboard",
+                    "StartDate": "2022-01-15",
+                    "EndDate": "2022-06-30"
+                },
+                {
+                    "ProjectID": "P002",
+                    "ProjectName": "Customer Retention Plan",
+                    "StartDate": "2022-07-01",
+                    "EndDate": "2022-12-31"
+                }
+            ]
+        },
+        {
+            "EmployeeID": 102,
+            "Name": "Jane Smith",
+            "Department": "Marketing",
+            "Salary": 55000,
+            "Skills": ["SEO", "Content Creation", "Brand Management"],
+            "Projects": [
+                {
+                    "ProjectID": "P003",
+                    "ProjectName": "Brand Redesign",
+                    "StartDate": "2021-11-01",
+                    "EndDate": "2022-05-01"
+                }
+            ]
+        }
+    ]
+}

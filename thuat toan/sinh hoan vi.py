@@ -1,10 +1,11 @@
 
-def pr(arr):
+def inRa(arr):
     for i in arr:
         print(i,end=' ')
     print()
 
-# Sinh hoán vị cho một danh sách
+
+
 arr = [1, 2, 3, 4, 5]
 arr.sort()
 arr_2 = arr.copy()
@@ -17,6 +18,6 @@ while arr!=arr_2:
                     arr[i],arr[j] = arr[j],arr[i]
                     break
             arr = arr[:i+1] + sorted(arr[i+1:])
-            pr(arr)
+            inRa(arr)
             break
 
