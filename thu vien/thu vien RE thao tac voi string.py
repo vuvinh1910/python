@@ -7,6 +7,8 @@ import re
 # Tìm tất cả các chuỗi con trong chuỗi phù hợp với mẫu và trả về danh sách
 result = re.findall(r'\d+', 'abc123def456ghi789')
 print(result)  # In ra ['123', '456', '789']
+result = re.findall(r'\D+', 'abc123def456ghi789')
+print(result)  # In ra ['abc', 'def', 'ghi']
 
 # thay the tat ca cac chuoi con bang ky tu thay the
 # re.sub(chuoi_con ,chuoi_thay_the ,chuoi_goc)
