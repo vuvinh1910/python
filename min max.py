@@ -15,5 +15,5 @@ print("Max:", max(s))  # Kết quả: Max: 'o'
 
 # Bạn cũng có thể sử dụng từ khóa key để chỉ định một hàm làm tiêu chí so sánh. Ví dụ, để tìm chuỗi dài nhất trong một danh sách các chuỗi:
 words = ["apple", "banana", "cherry"]
-longest_word = max(words, key=len)
+longest_word = max(words, key=lambda x : len(x))
 print("Longest word:", longest_word)  # Kết quả: Longest word: banana

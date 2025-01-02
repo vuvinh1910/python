@@ -1,7 +1,7 @@
 import re
 # \d+ la 1 chuoi so vd: 'asd123' thi \d+ la 123
 # result = re.findall(r'[a-zA-Z0-9]', s)   cac ky tu tu a-z A-Z va 0-9
-# sentences = re.split(r'[.?!]', input_text)  [] la 1 list chua cac ky tu .? ! dung de tach chuoi
+# sentences = re.split(r'[.?!]', input_text)  r'[]' la 1 list chua cac ky tu .? ! dung de tach chuoi
 
 
 # Tìm tất cả các chuỗi con trong chuỗi phù hợp với mẫu và trả về danh sách

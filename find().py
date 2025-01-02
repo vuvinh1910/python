@@ -1,7 +1,8 @@
 # find.(str,start position, end position)
+# khong ap dung cho list, neu co list hay dung index
 
 s = "hello hello hello"
-# khong ap dung cho list, neu co list hay dung index
+
 # Tìm kiếm "hello" bắt đầu từ vị trí 5
 print(s.find("hello", 5))  # Kết quả: 6 (bắt đầu từ vị trí 6)
 
