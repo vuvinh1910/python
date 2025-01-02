@@ -17,4 +17,6 @@ print(result)  # In ra 'abcXdefX'
 
 result = re.split(r'\d+', 'abc123def456ghi789')
 print(result)  # In ra ['abc', 'def', 'ghi', '']
+# tach bang nhieu dau cau trong '[]'
+result_2 = re.split(r'[.,?!]','213.sfsdf?233534')
 
